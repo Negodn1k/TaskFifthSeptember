@@ -10,11 +10,14 @@ public class Task {
                 Choose method:
                 1. printThreeWords
                 2. checkSumSign
-                3. printColor""");
+                3. printColor
+                4. compareNumbers""");
         switch (input.nextInt()) {
             case 1 -> printThreeWords();
             case 2 -> checkSumSign();
             case 3 -> printColor();
+            case 4 -> compareNumbers();
+            default -> System.out.println("Wrong choice");
         }
     }
 
